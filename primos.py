@@ -14,7 +14,7 @@ def nao_entre_em_panico():
             if i % div == 0:
                 divisores += 1
         if divisores == 2:
-            print(i)
+            return(i)
 
 
 if __name__ == "__main__":
